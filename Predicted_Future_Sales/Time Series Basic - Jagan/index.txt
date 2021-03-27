@@ -1,0 +1,24 @@
+TS 개념
+다양한 전형적인 시계열 모델의 기본 개념과 그 뒤에 있는 몇 가지 기본적인 직관력의 결합
+
+순서
+1. 문제 개요
+2. imports
+3. 기본적인 검색/EDA
+4. single 시계열
+4-1. Stationarity : 시계열 데이터에서 통계적 특성이 시간이 지나도 변하지 않음을 의미
+4-2. Seasonality , Trend and Remainder : 시계열 데이터에서 1년 미만의 특정 규칙적인 간격으로 발생하는 변동을 의미
+4-3. AR , MA , ARMA , ARIMA 
+4-4. Selecting P and Q using AIC
+4-5. ETS : 트렌드와 계절적 요소를 반영한 변동 예측 모델
+4-6. Prophet : 파이썬 시계열 예측 라이브러리
+4-7. UCM : 시계열 데이터를 계절, 순환 등 구성 요소로 분해하고 exogenous 변수를 허용함
+5. hierarchical 시계열
+5-1. Bottom's up
+5-2. AHP : 계층 분석법 (top-down)
+5-3. PHA : Proportions of Historical Averages (top-down)
+5-4. FP : Forcasted Proportions (top-down)
+
+
+1. 문제 개요
+- 
