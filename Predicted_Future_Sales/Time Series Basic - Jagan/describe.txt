@@ -1,0 +1,15 @@
+일일 판매 데이터 제공
+가게와 제품은 매달 조금씩 변화
+일일 판매 데이터를 사용하여 각각의 가게에서 제품의 판매량을 예측하는 모델 만들기
+
+ID - 테스트 셋에서 가게, 제품을 나타내는 튜플
+shop_id - 가게 고유 번호
+item_id - 제품 고유 번호
+item_category_id - 아이템 카테고리 고유 번호
+item_cnt_day - 판매된 제품의 개수. 예측해야 할 값
+item_price - 제품 가격
+date - 날짜, dd/mm/yyyy
+date_block_num - 연속적인 날짜, 2013년 1월 : 0,  2013년 2월 : 1, ...
+item_name - 제품 이름
+shop_name - 가게 이름
+item_category_name - 아이템 카테고리 이름
